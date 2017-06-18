@@ -1,0 +1,44 @@
+.checkout header {
+	height: 41px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-bottom: 1px solid #eaeaea;
+}
+
+.checkout header div {
+	display: flex;
+	align-items: center;
+}
+
+.checkout header h1 {
+	font-family: 'muliextrabold';
+	font-size: 18px;
+	color: #5e5f5f;
+}
+
+.checkout header span {
+	color: #4a4a4a;
+	opacity: 0.5;
+	margin-left: 20px;
+}
+
+.checkout header span strong {
+	font-family: 'muliextrabold';
+}
+
+.checkout header a {
+	background-image: url(../img/Fechar.png);
+	background-repeat: no-repeat;
+	width: 17px;
+	height: 17px;
+}
+
+.checkout header a span {
+	visibility: hidden;
+}
+
+
+
